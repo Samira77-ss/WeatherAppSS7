@@ -11,8 +11,8 @@ h1 {
   font-size: 15px;
   opacity: 0.9;
   position: relative;
-  top: -50px;
-  left: -10px;
+  top: -66px;
+  left: -3px;
 }
 h2 {
   font-size: 20px;
@@ -33,7 +33,7 @@ ul {
   margin: 0 0 10px;
   padding: 0;
   position: relative;
-  top: -25px;
+  top: -15px;
 }
 
 li {
@@ -49,34 +49,34 @@ button:hover {
   cursor: pointer;
 }
 .container {
-  border: 2px solid #a42db9;
-  border-radius: 25px;
+  border: 1px solid #a42db9;
+  border-radius: 20px;
   width: 650px;
   padding: 15px;
   margin: 100px 400px;
 }
 
 .weather {
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 20px;
   font-weight: bold;
   position: relative;
-  left: 250px;
-  top: 18px;
+  left: 270px;
+  top: 85px;
 }
 .units {
   font-size: 15px;
   position: relative;
-  top: 5px;
-  left: 250px;
+  top: 50px;
+  left: 260px;
 }
 .citty {
   font-size: 33px;
   margin-top: 20px;
   font-weight: bold;
 }
-.hm,
-.wd {
+.humidity,
+.wind {
   color: #0b2bdf;
   font-size: 15px;
   font-weight: bold;
@@ -104,8 +104,14 @@ button:hover {
 }
 #description {
   position: relative;
-  top: -55px;
-  left: 250px;
+  top: 18px;
+  left: 300px;
+}
+.icon {
+  position: relative;
+  size: 50px;
+  top: 80px;
+  left: 50px;
 }
 
 #fahrenheit-link,
@@ -115,4 +121,15 @@ button:hover {
 .active {
   color: rgb(33, 33, 33);
   cursor: default;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+  border: 1px solid #e1b4eb;
+  border-radius: 200px;
+  width: 600px;
+  padding: 50px;
+  margin-top: 5px;
 }
