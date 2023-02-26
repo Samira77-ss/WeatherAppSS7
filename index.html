@@ -4,13 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>Weather app</title>
   </head>
@@ -30,7 +28,7 @@
             <input type="submit" value="Search" class="search shadow-sm" />
           </div>
           <div class="col-3">
-            <button class="btn" id="current-location-button">Current</button>
+            <button class="current-button" id="current-location-button">Current</button>
           </div>
         </div>
       </form>
@@ -46,7 +44,7 @@
 
       <ul>
         <li class="hum">Humidity: <span class="humidity" id="humidity"></span>%</li>
-        <li class="wdd">Wind: <span class="wind" id="wind"></span> km/h</li>
+        <li class="wnd">Wind: <span class="wind" id="wind"></span> km/h</li>
       </ul>
        <div class="weather-forecast" id="forecast"></div>
           </div>
