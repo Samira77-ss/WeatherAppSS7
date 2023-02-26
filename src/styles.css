@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 input {
   border: 1px solid #e1b4eb;
@@ -9,13 +10,14 @@ input {
   line-height: 2em;
   margin: 15px auto;
   background: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 h1 {
   font-size: 15px;
   opacity: 0.9;
   position: relative;
-  top: -66px;
-  left: -3px;
+  top: -75px;
+  left: -2px;
 }
 h2 {
   font-size: 20px;
@@ -29,7 +31,7 @@ p {
   font-size: 15px;
   opacity: 0.8;
   position: relative;
-  top: -75px;
+  top: -80px;
   left: -25px;
 }
 ul {
@@ -40,7 +42,7 @@ ul {
 }
 
 li {
-  color: #7c7c7c;
+  opacity: 0.9;
   font-size: 16px;
   font-weight: 500px;
   height: 19px;
@@ -66,13 +68,13 @@ button:hover {
   font-weight: bold;
   position: relative;
   right: 200px;
-  top: 100px;
+  top: 120px;
 }
 .units {
-  font-size: 15px;
+  font-size: 18px;
   position: relative;
-  top: 70px;
-  right: 200px;
+  top: 75px;
+  right: 210px;
 }
 .citty {
   font-size: 33px;
@@ -96,11 +98,12 @@ button:hover {
   margin: 15px auto;
   transition: all 200ms ease;
   box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .hum,
 .wdd {
   position: relative;
-  top: -25px;
+  top: -20px;
   left: 480px;
 }
 .git,
@@ -109,13 +112,15 @@ button:hover {
 }
 #description {
   position: relative;
-  top: 18px;
+  top: 35px;
   left: 300px;
+  font-weight: bold;
+  font-size: 30px;
 }
 .icon {
   position: relative;
   size: 50px;
-  top: 80px;
+  top: 100px;
   left: 50px;
 }
 
@@ -132,8 +137,8 @@ button:hover {
   margin-top: 20px;
   text-align: center;
   color: #000;
-  border-radius: 200px;
   width: 600px;
   padding: 50px;
   margin-top: 5px;
+  font-size: 18px;
 }
