@@ -15,7 +15,7 @@ h1 {
   font-size: 15px;
   opacity: 0.9;
   position: relative;
-  top: -75px;
+  top: -90px;
   left: -2px;
 }
 h2 {
@@ -32,6 +32,7 @@ p {
   position: relative;
   top: -90px;
   left: -25px;
+  margin-bottom: 0;
 }
 ul {
   margin: 0 0 10px;
@@ -51,14 +52,15 @@ li {
 button:hover {
   background: #fff;
   cursor: pointer;
+  color: #000;
 }
 .container {
-  border: 1px solid #e5cee9;
   border-radius: 20px;
   width: 650px;
   padding: 15px;
   margin: 100px 400px;
   background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
 
 .temp {
@@ -66,12 +68,12 @@ button:hover {
   font-weight: bold;
   position: relative;
   right: 200px;
-  top: 120px;
+  top: 130px;
 }
 .units {
   font-size: 18px;
   position: relative;
-  top: 75px;
+  top: 85px;
   right: 210px;
 }
 .citty {
@@ -112,8 +114,7 @@ button:hover {
 
 .icon {
   position: relative;
-  size: 50px;
-  top: 100px;
+  top: 110px;
   left: 50px;
 }
 .weather-forecast {
@@ -125,12 +126,15 @@ button:hover {
   margin-top: 5px;
   font-size: 18px;
 }
+.weather-forecast-max {
+  font-weight: bold;
+}
 #description {
   position: relative;
   top: 35px;
   left: 300px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
 }
 #fahrenheit-link,
 #celsius-link {
